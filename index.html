@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      video,
+      canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+    <script defer src="/node_modules/face-api.js/dist/face-api.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>ai face detection</title>
+  </head>
+  <body>
+    <video id="video-stream" width="720" height="560" autoplay muted></video>
+  </body>
+</html>
